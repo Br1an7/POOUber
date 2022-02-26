@@ -3,4 +3,8 @@ class Car {
     String license;
     String driver;
     Integer passegenger;
+
+    void DatosAutos() {
+        System.out.println("Chofer: " + driver + " Licencia: " + license);
+    }
 }
